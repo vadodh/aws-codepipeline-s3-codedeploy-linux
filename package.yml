@@ -12,4 +12,4 @@ Resources:
           Properties:
             Path: /
             Method: GET
-      CodeUri: s3://git-to-amazon-s3-outputbucket-apv2be6bxuqg/vadodh/aws-codepipeline-s3-codedeploy-linux/DEV_branch/aws-codepipeline-s3-codedeploy-linux.zip
+      CodeUri: s3://git-to-amazon-s3-outputbucket-apv2be6bxuqg/DEV_branch/aws-codepipeline-s3-codedeploy-linux.zip
