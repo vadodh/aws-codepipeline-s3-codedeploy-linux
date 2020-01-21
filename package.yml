@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Resources:
+  HelloWorldFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: index.handler
+      Runtime: nodejs12.x
+      Events:
+        HelloWorldApi:
+          Type: Api
+          Properties:
+            Path: /
+            Method: GET
+      CodeUri: s3://git-to-amazon-s3-outputbucket-apv2be6bxuqg/vadodh/aws-codepipeline-s3-codedeploy-linux/DEV_branch/aws-codepipeline-s3-codedeploy-linux.zip
